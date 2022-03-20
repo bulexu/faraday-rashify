@@ -2,7 +2,7 @@
 
 require 'faraday'
 require 'faraday/rashify/version'
-require 'rash'
+require 'hashie/rash'
 
 module Faraday
   # This is a Faraday middleware which turns Hashes into Hashie::Mash::Rash
